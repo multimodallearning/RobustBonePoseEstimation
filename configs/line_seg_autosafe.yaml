@@ -1,0 +1,35 @@
+# pytorch_lightning==2.5.6
+trainer:
+  devices:
+    - 0
+  precision: 32-true
+  callbacks:
+  - class_path: pytorch_lightning.callbacks.ModelCheckpoint
+    init_args:
+      save_last: true
+      monitor: "F1/val"
+      mode: "max"
+      filename: "best"
+  max_epochs: -1
+  max_steps: 5000
+  check_val_every_n_epoch: 5
+model:
+  class_path: model.line_seg_models.LineUNet
+  init_args:
+    pos_weight: 1
+    channels:
+    - 32
+    - 64
+    - 128
+    - 256
+    - 512
+    - 1024
+    in_channel: 1
+    out_channel: 2
+data:
+  class_path: dataset.autosafe_dataset.AutoSafeDataModule
+  init_args:
+    fold_idx: 0
+    batch_size: 16
+    use_data_aug: true
+

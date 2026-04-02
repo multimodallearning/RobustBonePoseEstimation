@@ -1,0 +1,17 @@
+# pytorch_lightning==2.5.6
+trainer:
+  devices:
+    - 0
+  precision: bf16-mixed
+  gradient_clip_val: 0.1
+  callbacks:
+    - class_path: "pytorch_lightning.callbacks.ModelCheckpoint"
+      init_args:
+        monitor: "loss/val"
+        mode: "min"
+        filename: "best"
+        save_last: true
+  max_epochs: 50
+  check_val_every_n_epoch: 5
+model:
+  class_path: model.lightning_deformable_detr.LightningDeformableDETR

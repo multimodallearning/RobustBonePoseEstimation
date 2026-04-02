@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1555</id>
+      <size>153</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-02-05 09:41:37.519447+00:00</created>
+      <updated>2026-02-06 05:43:36.198408+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>152</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1555</id>
+          <start>0</start>
+          <stop>152</stop>
+          <url>https://label.echoscout.ai/api/jobs/1555</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>r.keuth@uni-luebeck.de</username>
+        <email>r.keuth@uni-luebeck.de</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>proximales Knochenfragment</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Knochen</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>Radius</default_value>
+              <values>Radius
+Ulna</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>distales Knochenfragment</name>
+          <color>#f078f0</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Knochen</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>Radius</default_value>
+              <values>Radius
+Ulna</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>metaphysäre Viereck</name>
+          <color>#3df53d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-02-06 09:45:45.643533+00:00</dumped>
+  </meta>
+  <image id="0" name="0003_0662359226_01_WRI-R1_M011.png" width="704" height="1130">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="185.05" ytl="573.48" xbr="477.24" ybr="865.45" rotation="13.50" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="230.95" ytl="570.12" xbr="345.21" ybr="693.37" rotation="12.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="422.31" ytl="607.16" xbr="475.33" ybr="736.82" rotation="5.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="file" occluded="0" xtl="373.13" ytl="741.45" xbr="428.19" ybr="1113.50" rotation="10.40" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="176.15" ytl="691.51" xbr="292.66" ybr="1110.62" rotation="10.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="1" name="0003_0662359351_01_WRI-R2_M011.png" width="536" height="1176">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="231.43" ytl="666.01" xbr="292.72" ybr="1163.67" rotation="347.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="259.80" ytl="689.73" xbr="305.72" ybr="1164.16" rotation="351.90" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="249.91" ytl="527.42" xbr="298.50" ybr="682.05" rotation="17.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="195.10" ytl="523.22" xbr="270.08" ybr="657.90" rotation="10.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="2" name="0129_1035715641_01_WRI-R1_F011.png" width="957" height="1512">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="388.65" ytl="534.59" xbr="543.49" ybr="1273.28" rotation="350.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="335.07" ytl="502.51" xbr="613.21" ybr="780.19" rotation="345.20" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="591.29" ytl="478.86" xbr="689.63" ybr="1412.06" rotation="346.10" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="340.68" ytl="469.82" xbr="463.64" ybr="633.22" rotation="344.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="492.72" ytl="454.57" xbr="598.28" ybr="530.34" rotation="340.10" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="3" name="0129_1035715705_01_WRI-R2_F011.png" width="677" height="1122">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="326.41" ytl="296.58" xbr="393.07" ybr="516.15" rotation="312.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="366.70" ytl="454.60" xbr="444.51" ybr="1084.90" rotation="5.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="4" name="0208_1050745808_05_WRI-L1_F003.png" width="432" height="918">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="59.81" ytl="451.39" xbr="290.60" ybr="682.20" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="file" occluded="0" xtl="170.49" ytl="456.12" xbr="252.50" ybr="557.67" rotation="13.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="161.08" ytl="568.94" xbr="227.48" ybr="916.80" rotation="359.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="5" name="0208_1050745893_05_WRI-L2_F003.png" width="484" height="936">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="190.61" ytl="420.38" xbr="258.77" ybr="528.45" rotation="342.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="208.74" ytl="539.90" xbr="267.63" ybr="934.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="6" name="0215_0914656897_03_WRI-L1_F003.png" width="542" height="438">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="210.90" ytl="133.75" xbr="290.10" ybr="234.29" rotation="11.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="200.13" ytl="241.96" xbr="278.01" ybr="430.20" rotation="1.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="102.90" ytl="212.37" xbr="147.17" ybr="431.60" rotation="1.60" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="107.02" ytl="131.17" xbr="307.79" ybr="332.10" rotation="0.90" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="117.99" ytl="125.31" xbr="160.98" ybr="206.26" rotation="13.20" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="7" name="0215_0914656950_03_WRI-L2_F003.png" width="448" height="414">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="215.28" ytl="155.76" xbr="260.41" ybr="277.64" rotation="340.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="file" occluded="0" xtl="216.86" ytl="281.12" xbr="261.21" ybr="396.34" rotation="19.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="8" name="0313_0954826627_08_WRI-R1_F015.png" width="768" height="1045">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="306.36" ytl="493.36" xbr="622.66" ybr="809.70" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="0313_0954826683_08_WRI-R2_F015.png" width="518" height="1071">
+  </image>
+  <image id="10" name="0313_0954826752_08_WRI-L1_F015.png" width="602" height="972">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="112.32" ytl="683.98" xbr="408.28" ybr="962.40" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="0313_0954826801_08_WRI-L2_F015.png" width="536" height="960">
+  </image>
+  <image id="12" name="0342_0522659451_02_WRI-R1_M012.png" width="630" height="1190">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="204.20" ytl="726.90" xbr="316.34" ybr="1182.38" rotation="359.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="file" occluded="0" xtl="199.00" ytl="510.83" xbr="315.53" ybr="723.14" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="430.24" ytl="649.00" xbr="505.84" ybr="1181.79" rotation="355.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="392.54" ytl="511.74" xbr="470.44" ybr="645.16" rotation="346.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="165.13" ytl="511.77" xbr="482.36" ybr="829.00" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="0342_0522659510_02_WRI-R2_M012.png" width="545" height="1200">
+  </image>
+  <image id="14" name="0429_0200898974_01_WRI-L1_M014.png" width="643" height="1216">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="132.30" ytl="620.99" xbr="475.51" ybr="964.10" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="325.69" ytl="707.30" xbr="467.80" ybr="1209.23" rotation="356.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="296.90" ytl="619.08" xbr="447.49" ybr="732.12" rotation="354.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="15" name="0429_0200899017_02_WRI-L2_M014.png" width="595" height="1204">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="264.24" ytl="684.82" xbr="349.90" ybr="1201.03" rotation="3.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="245.45" ytl="550.41" xbr="380.30" ybr="702.12" rotation="340.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="16" name="0429_0214803440_06_WRI-L1_M014.png" width="698" height="1048">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="161.15" ytl="517.82" xbr="529.60" ybr="885.59" rotation="9.90" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="0429_0214803785_06_WRI-L2_M014.png" width="651" height="1032">
+  </image>
+  <image id="18" name="0482_0829961380_03_WRI-R1_M012.png" width="630" height="1016">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="211.48" ytl="484.18" xbr="342.22" ybr="625.15" rotation="352.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="250.93" ytl="630.24" xbr="366.49" ybr="997.78" rotation="351.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="203.53" ytl="470.42" xbr="505.16" ybr="772.21" rotation="351.80" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="0482_0829961405_03_WRI-R2_M012.png" width="523" height="1044">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="256.78" ytl="509.42" xbr="359.62" ybr="624.17" rotation="18.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="229.17" ytl="644.10" xbr="318.75" ybr="1038.50" rotation="358.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="20" name="0595_0744504230_05_WRI-R1_M006.png" width="607" height="876">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="287.99" ytl="432.36" xbr="368.84" ybr="847.78" rotation="358.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="424.00" ytl="392.98" xbr="476.92" ybr="849.27" rotation="358.20" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="259.44" ytl="289.06" xbr="355.23" ybr="438.24" rotation="349.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="404.33" ytl="300.11" xbr="466.82" ybr="389.50" rotation="353.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="221.90" ytl="296.66" xbr="474.95" ybr="549.30" rotation="358.10" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="0595_0744504266_05_WRI-R2_M006.png" width="511" height="1012">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="210.66" ytl="332.92" xbr="270.67" ybr="461.76" rotation="24.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="220.45" ytl="473.11" xbr="286.39" ybr="1002.84" rotation="350.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="22" name="0600_0786418054_04_WRI-L1_F005.png" width="529" height="790">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="112.14" ytl="356.46" xbr="169.45" ybr="410.46" rotation="356.50" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="128.78" ytl="411.99" xbr="185.50" ybr="608.39" rotation="352.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="235.23" ytl="386.55" xbr="325.62" ybr="783.46" rotation="348.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="203.82" ytl="345.44" xbr="298.36" ybr="411.34" rotation="3.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="119.68" ytl="335.91" xbr="329.24" ybr="545.63" rotation="351.20" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="0600_0786418117_04_WRI-L2_F005.png" width="532" height="942">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="203.50" ytl="389.13" xbr="265.19" ybr="742.95" rotation="14.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="223.97" ytl="326.39" xbr="279.32" ybr="411.30" rotation="330.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="24" name="0632_0192030256_03_WRI-L1_F009.png" width="494" height="1168">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="91.65" ytl="376.25" xbr="371.53" ybr="656.10" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="260.72" ytl="588.66" xbr="347.52" ybr="1157.98" rotation="358.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="249.68" ytl="373.30" xbr="338.98" ybr="588.35" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="25" name="0632_0192030296_03_WRI-L2_F009.png" width="436" height="1132">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="216.84" ytl="315.53" xbr="284.28" ybr="485.67" rotation="349.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="223.77" ytl="468.53" xbr="290.38" ybr="1127.49" rotation="3.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="26" name="0775_0633474831_05_WRI-L1_M007.png" width="454" height="1176">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="133.53" ytl="556.85" xbr="182.35" ybr="1174.76" rotation="358.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="104.69" ytl="448.05" xbr="152.08" ybr="562.30" rotation="354.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="230.87" ytl="400.88" xbr="313.40" ybr="549.38" rotation="358.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="91.58" ytl="408.04" xbr="339.55" ybr="656.00" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="235.70" ytl="552.05" xbr="318.41" ybr="1045.49" rotation="359.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="27" name="0775_0633474912_05_WRI-L2_M007.png" width="421" height="1208">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="140.13" ytl="454.28" xbr="217.61" ybr="581.01" rotation="17.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="126.37" ytl="591.17" xbr="201.23" ybr="992.70" rotation="359.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="28" name="0809_0409215033_03_WRI-L1_F007.png" width="469" height="894">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="229.75" ytl="433.31" xbr="323.44" ybr="562.60" rotation="347.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="108.19" ytl="473.79" xbr="174.78" ybr="527.23" rotation="347.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="270.60" ytl="540.29" xbr="349.72" ybr="826.41" rotation="347.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="118.23" ytl="423.95" xbr="361.21" ybr="666.77" rotation="347.10" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="153.95" ytl="509.06" xbr="204.96" ybr="863.26" rotation="353.10" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="29" name="0809_0409215096_03_WRI-L2_F007.png" width="439" height="700">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="157.10" ytl="313.69" xbr="216.46" ybr="437.10" rotation="9.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="168.28" ytl="447.38" xbr="220.62" ybr="691.63" rotation="352.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="30" name="0931_0673000382_01_WRI-R1_F007.png" width="624" height="892">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="207.51" ytl="380.32" xbr="456.57" ybr="629.81" rotation="357.50" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="248.35" ytl="551.53" xbr="328.59" ybr="884.19" rotation="1.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="240.80" ytl="384.89" xbr="324.21" ybr="545.84" rotation="354.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="31" name="0931_0673000430_01_WRI-R2_F007.png" width="551" height="1012">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="227.21" ytl="610.66" xbr="280.14" ybr="1004.54" rotation="357.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="243.45" ytl="454.04" xbr="298.03" ybr="606.89" rotation="18.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="32" name="0931_0697795374_02_WRI-R1_F008.png" width="596" height="944">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="180.09" ytl="382.58" xbr="425.03" ybr="627.31" rotation="355.80" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="0931_0697795390_02_WRI-R2_F008.png" width="487" height="958">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="171.09" ytl="362.81" xbr="249.09" ybr="566.12" rotation="4.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="file" occluded="0" xtl="173.77" ytl="581.10" xbr="245.71" ybr="961.37" rotation="357.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="34" name="0972_0318408668_01_WRI-R1_F010.png" width="466" height="934">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="107.69" ytl="496.87" xbr="385.10" ybr="774.30" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="137.09" ytl="660.87" xbr="237.72" ybr="921.90" rotation="2.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="310.96" ytl="632.76" xbr="376.01" ybr="929.00" rotation="0.80" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="137.68" ytl="510.17" xbr="245.27" ybr="650.39" rotation="356.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="306.78" ytl="509.95" xbr="376.20" ybr="624.37" rotation="356.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="35" name="0972_0318408720_01_WRI-R2_F010.png" width="442" height="963">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="187.81" ytl="643.72" xbr="263.55" ybr="953.65" rotation="2.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="166.19" ytl="506.58" xbr="255.36" ybr="657.04" rotation="348.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="36" name="1062_0177326117_01_WRI-R1_F013.png" width="574" height="1004">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="309.08" ytl="514.49" xbr="371.80" ybr="995.80" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="108.81" ytl="477.42" xbr="234.40" ybr="990.38" rotation="4.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="110.26" ytl="385.97" xbr="377.10" ybr="652.80" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="305.09" ytl="419.54" xbr="369.28" ybr="518.95" rotation="354.10" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="127.84" ytl="384.94" xbr="259.39" ybr="488.32" rotation="5.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="37" name="1062_0177326174_01_WRI-R2_F013.png" width="586" height="1217">
+  </image>
+  <image id="38" name="1142_0764185060_03_WRI-R1_F008.png" width="523" height="894">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="149.23" ytl="361.83" xbr="413.72" ybr="625.74" rotation="349.60" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="173.97" ytl="374.91" xbr="274.68" ybr="599.79" rotation="354.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="220.85" ytl="563.71" xbr="310.62" ybr="874.49" rotation="350.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="39" name="1142_0764185108_03_WRI-R2_F008.png" width="512" height="1046">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="238.21" ytl="330.20" xbr="297.93" ybr="557.33" rotation="0.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="300.71" ytl="518.80" xbr="362.38" ybr="1019.01" rotation="348.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="40" name="1165_0305603368_01_WRI-R1_M010.png" width="1053" height="1420">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="429.70" ytl="551.82" xbr="729.82" ybr="851.77" rotation="356.10" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="686.25" ytl="692.14" xbr="749.02" ybr="1337.37" rotation="356.60" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="452.77" ytl="556.65" xbr="579.77" ybr="685.83" rotation="349.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="643.56" ytl="577.51" xbr="711.38" ybr="685.82" rotation="342.80" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="485.38" ytl="659.86" xbr="582.90" ybr="1193.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="41" name="1165_0305603453_01_WRI-R2_M010.png" width="634" height="1090">
+  </image>
+  <image id="42" name="1324_0598047414_02_WRI-L1_M013.png" width="622" height="994">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="288.24" ytl="646.69" xbr="377.21" ybr="970.72" rotation="351.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="296.68" ytl="406.50" xbr="406.30" ybr="694.11" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="115.97" ytl="409.60" xbr="439.39" ybr="732.98" rotation="356.70" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="1324_0598047469_02_WRI-L2_M013.png" width="549" height="1126">
+  </image>
+  <image id="44" name="1386_0186470011_05_WRI-R1_F004.png" width="517" height="902">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="170.19" ytl="358.83" xbr="232.52" ybr="514.99" rotation="354.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="199.46" ytl="521.52" xbr="259.19" ybr="854.40" rotation="353.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="147.90" ytl="354.26" xbr="358.07" ybr="564.10" rotation="354.70" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="1386_0186470078_05_WRI-R2_F004.png" width="398" height="772">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="137.00" ytl="396.74" xbr="177.63" ybr="767.89" rotation="3.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="166.69" ytl="232.59" xbr="212.74" ybr="395.17" rotation="11.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="46" name="1393_0564640356_03_WRI-R1_F006.png" width="536" height="828">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="164.33" ytl="285.15" xbr="393.62" ybr="513.87" rotation="354.90" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="228.22" ytl="486.48" xbr="286.33" ybr="802.93" rotation="356.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="208.23" ytl="295.79" xbr="269.59" ybr="484.40" rotation="353.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="47" name="1393_0564640413_03_WRI-R2_F006.png" width="401" height="926">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="186.32" ytl="256.25" xbr="223.55" ybr="462.21" rotation="341.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="216.31" ytl="462.01" xbr="259.40" ybr="910.99" rotation="1.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="48" name="1492_0476662104_05_WRI-L1_M009.png" width="608" height="804">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="341.24" ytl="563.55" xbr="427.42" ybr="775.30" rotation="359.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="198.25" ytl="380.60" xbr="455.29" ybr="637.60" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="338.77" ytl="382.40" xbr="432.47" ybr="558.38" rotation="358.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="49" name="1492_0476662123_05_WRI-L2_M009.png" width="434" height="644">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="246.55" ytl="236.42" xbr="301.34" ybr="406.20" rotation="345.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="265.44" ytl="414.83" xbr="324.38" ybr="618.70" rotation="1.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="50" name="1587_1286673209_04_WRI-L1_F007.png" width="458" height="671">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="229.39" ytl="327.74" xbr="329.91" ybr="437.86" rotation="3.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="239.64" ytl="415.31" xbr="330.22" ybr="660.38" rotation="353.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="122.38" ytl="421.64" xbr="178.49" ybr="656.55" rotation="355.90" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="file" occluded="0" xtl="115.60" ytl="323.41" xbr="171.65" ybr="414.89" rotation="3.30" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="110.09" ytl="322.02" xbr="358.81" ybr="571.11" rotation="356.70" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="1587_1286673295_04_WRI-L2_F007.png" width="420" height="784">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="144.06" ytl="396.61" xbr="207.70" ybr="772.70" rotation="8.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="126.20" ytl="294.80" xbr="218.33" ybr="409.66" rotation="340.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="52" name="1763_0604832688_01_WRI-R1_M012.png" width="710" height="1472">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="218.89" ytl="612.54" xbr="587.06" ybr="980.20" rotation="0.60" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="234.53" ytl="757.11" xbr="364.67" ybr="1364.38" rotation="3.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="238.88" ytl="610.78" xbr="389.26" ybr="754.92" rotation="1.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="53" name="1763_0604832724_01_WRI-R2_M012.png" width="619" height="1358">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="328.51" ytl="597.87" xbr="450.12" ybr="741.58" rotation="6.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="327.01" ytl="738.46" xbr="441.92" ybr="1347.87" rotation="358.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="54" name="1919_0243693177_02_WRI-L1_F009.png" width="937" height="1052">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="427.93" ytl="493.09" xbr="530.75" ybr="624.77" rotation="358.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="275.65" ytl="593.38" xbr="332.74" ybr="971.92" rotation="4.40" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="431.90" ytl="623.28" xbr="527.19" ybr="1000.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="282.92" ytl="487.88" xbr="546.01" ybr="751.00" rotation="0.20" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="288.93" ytl="500.12" xbr="359.24" ybr="578.49" rotation="6.60" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="55" name="1919_0243693224_02_WRI-L2_F009.png" width="598" height="648">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="256.77" ytl="505.19" xbr="305.91" ybr="627.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="273.38" ytl="375.27" xbr="326.31" ybr="507.52" rotation="17.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="56" name="1937_0601092484_01_WRI-L1_F001.png" width="438" height="617">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="82.21" ytl="286.71" xbr="281.04" ybr="485.50" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="1937_0601092545_01_WRI-L2_F001.png" width="414" height="696">
+  </image>
+  <image id="58" name="2005_0516837569_01_WRI-L1_M008.png" width="654" height="1054">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="136.49" ytl="485.93" xbr="401.25" ybr="751.00" rotation="1.40" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="273.36" ytl="672.51" xbr="354.37" ybr="1026.28" rotation="1.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="280.61" ytl="484.08" xbr="367.70" ybr="665.49" rotation="2.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="59" name="2005_0516837635_01_WRI-L2_M008.png" width="398" height="1057">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="223.20" ytl="465.88" xbr="283.00" ybr="1054.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="188.05" ytl="297.70" xbr="252.07" ybr="478.40" rotation="343.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="60" name="2230_0343451579_03_WRI-L1_F005.png" width="517" height="1122">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="137.93" ytl="485.91" xbr="376.90" ybr="725.20" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="140.19" ytl="564.84" xbr="196.21" ybr="1106.00" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="247.55" ytl="609.44" xbr="334.56" ybr="1015.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="249.03" ytl="491.83" xbr="352.60" ybr="613.50" rotation="8.00" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="142.96" ytl="484.05" xbr="201.99" ybr="554.19" rotation="6.70" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+  </image>
+  <image id="61" name="2230_0343451607_03_WRI-L2_F005.png" width="448" height="1096">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="226.41" ytl="428.54" xbr="278.29" ybr="556.03" rotation="347.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="214.85" ytl="535.38" xbr="277.43" ybr="915.45" rotation="7.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="62" name="2404_0596316979_01_WRI-R1_M013.png" width="645" height="1012">
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="125.92" ytl="400.18" xbr="446.46" ybr="720.90" rotation="1.30" z_order="0">
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="158.16" ytl="393.37" xbr="280.63" ybr="535.47" rotation="2.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="148.53" ytl="541.51" xbr="269.56" ybr="1007.46" rotation="1.60" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="63" name="2404_0596317040_02_WRI-R2_M013.png" width="546" height="1178">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="274.76" ytl="599.49" xbr="361.92" ybr="1169.74" rotation="352.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="258.71" ytl="481.45" xbr="339.81" ybr="627.93" rotation="7.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="64" name="2636_0998079124_01_WRI-R1_M009.png" width="572" height="1163">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="185.59" ytl="483.90" xbr="294.36" ybr="616.85" rotation="356.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="199.85" ytl="634.80" xbr="301.22" ybr="1158.46" rotation="1.40" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="164.38" ytl="485.91" xbr="467.54" ybr="789.10" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="2636_0998079164_01_WRI-R2_M009.png" width="725" height="1302">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="339.44" ytl="339.95" xbr="400.62" ybr="473.88" rotation="13.90" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="349.55" ytl="490.79" xbr="425.45" ybr="993.44" rotation="350.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="66" name="2636_0998085708_02_WRI-R2_M009.png" width="627" height="1030">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="263.09" ytl="512.30" xbr="339.79" ybr="655.32" rotation="5.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="237.85" ytl="658.58" xbr="314.20" ybr="1022.09" rotation="2.50" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="67" name="2636_0998658469_03_WRI-R1_M009.png" width="832" height="950">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="315.19" ytl="554.60" xbr="434.51" ybr="687.36" rotation="352.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="298.58" ytl="542.92" xbr="601.00" ybr="844.84" rotation="356.70" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="347.90" ytl="700.46" xbr="440.64" ybr="945.39" rotation="358.30" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="68" name="2636_0998658540_03_WRI-R2_M009.png" width="842" height="1064">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="391.08" ytl="482.24" xbr="464.92" ybr="1042.94" rotation="355.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="401.49" ytl="346.35" xbr="480.62" ybr="486.80" rotation="18.70" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="69" name="2644_0954331980_01_WRI-R1_M010.png" width="624" height="1123">
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="287.00" ytl="682.90" xbr="373.32" ybr="1113.74" rotation="358.10" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="435.33" ytl="496.66" xbr="497.65" ybr="577.10" rotation="353.00" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="metaphysäre Viereck" source="file" occluded="0" xtl="223.18" ytl="485.99" xbr="505.62" ybr="767.60" rotation="357.50" z_order="0">
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="444.41" ytl="583.81" xbr="505.60" ybr="1106.90" z_order="0">
+      <attribute name="Knochen">Ulna</attribute>
+    </box>
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="263.21" ytl="489.86" xbr="359.43" ybr="675.35" rotation="353.80" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="70" name="2644_0954332020_02_WRI-R2_M010.png" width="482" height="1125">
+    <box label="distales Knochenfragment" source="manual" occluded="0" xtl="271.18" ytl="418.49" xbr="343.53" ybr="619.48" rotation="345.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+    <box label="proximales Knochenfragment" source="manual" occluded="0" xtl="320.58" ytl="619.04" xbr="389.12" ybr="1029.24" rotation="355.20" z_order="0">
+      <attribute name="Knochen">Radius</attribute>
+    </box>
+  </image>
+  <image id="71" name="2963_0250490477_01_WRI-R1_M007.png" width="678" height="882">
+  </image>
+  <image id="72" name="2963_0250490906_01_WRI-R2_M007.png" width="560" height="908">
+  </image>
+  <image id="73" name="3015_0914101729_02_WRI-L1_M004.png" width="432" height="720">
+  </image>
+  <image id="74" name="3015_0914101902_02_WRI-L2_M004.png" width="478" height="791">
+  </image>
+  <image id="75" name="3065_0570146275_03_WRI-L1_M006.png" width="574" height="1050">
+  </image>
+  <image id="76" name="3065_0570146313_03_WRI-L2_M006.png" width="516" height="1111">
+  </image>
+  <image id="77" name="3123_0392681084_04_WRI-R1_M008.png" width="967" height="967">
+  </image>
+  <image id="78" name="3123_0392681139_04_WRI-R2_M008.png" width="834" height="834">
+  </image>
+  <image id="79" name="3241_0952435566_01_WRI-L1_M014.png" width="630" height="1344">
+  </image>
+  <image id="80" name="3241_0952435625_01_WRI-L2_M014.png" width="633" height="1324">
+  </image>
+  <image id="81" name="3308_0313266290_03_WRI-L1_F010.png" width="498" height="940">
+  </image>
+  <image id="82" name="3308_0313266377_03_WRI-L2_F010.png" width="505" height="872">
+  </image>
+  <image id="83" name="3320_0970269417_01_WRI-L1_M001.png" width="541" height="736">
+  </image>
+  <image id="84" name="3320_0970269476_01_WRI-L2_M001.png" width="477" height="758">
+  </image>
+  <image id="85" name="3320_0970789864_02_WRI-L1_M001.png" width="576" height="798">
+  </image>
+  <image id="86" name="3320_0970789921_02_WRI-L2_M001.png" width="501" height="738">
+  </image>
+  <image id="87" name="3335_0914852727_03_WRI-L1_F006.png" width="593" height="734">
+  </image>
+  <image id="88" name="3335_0914852786_03_WRI-L2_F006.png" width="462" height="759">
+  </image>
+  <image id="89" name="3465_0360126545_06_WRI-R1_M012.png" width="619" height="1232">
+  </image>
+  <image id="90" name="3465_0360126612_06_WRI-R2_M012.png" width="584" height="1260">
+  </image>
+  <image id="91" name="3487_0158286281_08_WRI-R1_F012.png" width="582" height="1305">
+  </image>
+  <image id="92" name="3487_0158286336_08_WRI-R2_F012.png" width="440" height="1324">
+  </image>
+  <image id="93" name="3544_0947009084_01_WRI-L1_F011.png" width="552" height="1092">
+  </image>
+  <image id="94" name="3544_0947009130_01_WRI-L2_F011.png" width="453" height="1096">
+  </image>
+  <image id="95" name="3549_0491433794_01_WRI-L1_F005.png" width="590" height="1062">
+  </image>
+  <image id="96" name="3549_0491433814_01_WRI-L2_F005.png" width="596" height="1162">
+  </image>
+  <image id="97" name="3598_1058422588_06_WRI-R1_M009.png" width="582" height="1274">
+  </image>
+  <image id="98" name="3598_1058422656_06_WRI-R2_M009.png" width="480" height="1227">
+  </image>
+  <image id="99" name="3672_0871346381_01_WRI-L1_M004.png" width="954" height="1159">
+  </image>
+  <image id="100" name="3672_0871346422_01_WRI-L2_M004.png" width="406" height="900">
+  </image>
+  <image id="101" name="3947_1053307033_01_WRI-L1_F005.png" width="561" height="974">
+  </image>
+  <image id="102" name="3947_1053307074_01_WRI-L2_F005.png" width="466" height="902">
+  </image>
+  <image id="103" name="3984_1056501617_04_WRI-L1_M011.png" width="504" height="868">
+  </image>
+  <image id="104" name="3984_1056501675_04_WRI-L2_M011.png" width="452" height="862">
+  </image>
+  <image id="105" name="4232_0262950427_02_WRI-L2_F006.png" width="563" height="906">
+  </image>
+  <image id="106" name="4247_0333589353_01_WRI-L1_M004.png" width="528" height="954">
+  </image>
+  <image id="107" name="4247_0333589381_01_WRI-L2_M004.png" width="491" height="992">
+  </image>
+  <image id="108" name="4296_0529418616_01_WRI-L1_M014.png" width="552" height="1053">
+  </image>
+  <image id="109" name="4296_0529418672_01_WRI-L2_M014.png" width="509" height="1048">
+  </image>
+  <image id="110" name="4365_0567625147_01_WRI-R1_F010.png" width="562" height="966">
+  </image>
+  <image id="111" name="4365_0567625194_01_WRI-R2_F010.png" width="688" height="1066">
+  </image>
+  <image id="112" name="4365_0567626904_02_WRI-R1_F010.png" width="681" height="1072">
+  </image>
+  <image id="113" name="4365_0567626945_02_WRI-R2_F010.png" width="642" height="1191">
+  </image>
+  <image id="114" name="4429_1015964705_03_WRI-L1_M006.png" width="533" height="810">
+  </image>
+  <image id="115" name="4429_1015964780_03_WRI-L2_M006.png" width="504" height="983">
+  </image>
+  <image id="116" name="4429_1015966945_04_WRI-L1_M006.png" width="654" height="886">
+  </image>
+  <image id="117" name="4543_1023664729_03_WRI-R1_F006.png" width="644" height="799">
+  </image>
+  <image id="118" name="4543_1023664840_03_WRI-R2_F006.png" width="519" height="960">
+  </image>
+  <image id="119" name="4726_0967099314_03_WRI-R1_F009.png" width="580" height="1080">
+  </image>
+  <image id="120" name="4726_0967099384_03_WRI-R2_F009.png" width="518" height="1094">
+  </image>
+  <image id="121" name="4752_0727932083_02_WRI-L1_M010.png" width="471" height="1234">
+  </image>
+  <image id="122" name="4752_0727932112_02_WRI-L2_M010.png" width="405" height="1342">
+  </image>
+  <image id="123" name="4793_0423585703_01_WRI-R1_F006.png" width="498" height="696">
+  </image>
+  <image id="124" name="4793_0423585742_01_WRI-R2_F006.png" width="406" height="796">
+  </image>
+  <image id="125" name="4793_0423591582_02_WRI-R1_F006.png" width="530" height="837">
+  </image>
+  <image id="126" name="4793_0423591652_02_WRI-R2_F006.png" width="566" height="1018">
+  </image>
+  <image id="127" name="4890_0813062018_04_WRI-R1_F012.png" width="546" height="976">
+  </image>
+  <image id="128" name="4890_0813062072_04_WRI-R2_F012.png" width="424" height="956">
+  </image>
+  <image id="129" name="5238_0561586243_02_WRI-L1_F006.png" width="418" height="786">
+  </image>
+  <image id="130" name="5238_0561586292_02_WRI-L2_F006.png" width="424" height="792">
+  </image>
+  <image id="131" name="5278_0817595434_01_WRI-L1_F012.png" width="630" height="1112">
+  </image>
+  <image id="132" name="5278_0817595470_01_WRI-L2_F012.png" width="486" height="980">
+  </image>
+  <image id="133" name="5289_0680554997_01_WRI-L1_M009.png" width="550" height="1146">
+  </image>
+  <image id="134" name="5379_0388426253_02_WRI-L1_M009.png" width="723" height="1162">
+  </image>
+  <image id="135" name="5379_0388426289_02_WRI-L2_M009.png" width="664" height="1282">
+  </image>
+  <image id="136" name="5410_0743449832_03_WRI-L1_M008.png" width="535" height="812">
+  </image>
+  <image id="137" name="5410_0743449973_03_WRI-L2_M008.png" width="392" height="767">
+  </image>
+  <image id="138" name="5473_0355350018_03_WRI-L2_F006.png" width="559" height="738">
+  </image>
+  <image id="139" name="5497_0479549184_03_WRI-L1_F008.png" width="443" height="842">
+  </image>
+  <image id="140" name="5497_0479549222_03_WRI-L2_F008.png" width="424" height="946">
+  </image>
+  <image id="141" name="5634_0979820934_03_WRI-R1_M005.png" width="556" height="878">
+  </image>
+  <image id="142" name="5634_0979820983_03_WRI-R2_M005.png" width="381" height="786">
+  </image>
+  <image id="143" name="5688_0975919095_02_WRI-L1_M013.png" width="570" height="900">
+  </image>
+  <image id="144" name="5688_0975919124_02_WRI-L2_M013.png" width="578" height="1053">
+  </image>
+  <image id="145" name="5821_0697883251_01_WRI-R1_M007.png" width="700" height="1052">
+  </image>
+  <image id="146" name="5821_0697883285_01_WRI-R2_M007.png" width="659" height="906">
+  </image>
+  <image id="147" name="5998_0294538161_05_WRI-R1_M006.png" width="544" height="960">
+  </image>
+  <image id="148" name="5998_0294538211_05_WRI-R2_M006.png" width="479" height="1164">
+  </image>
+  <image id="149" name="6006_0935785399_01_WRI-L1_M014.png" width="556" height="924">
+  </image>
+  <image id="150" name="6006_0935785462_01_WRI-L2_M014.png" width="442" height="918">
+  </image>
+  <image id="151" name="6017_0561869267_01_WRI-R1_M008.png" width="474" height="979">
+  </image>
+  <image id="152" name="6017_0561869318_01_WRI-R1_M008.png" width="422" height="840">
+  </image>
+</annotations>

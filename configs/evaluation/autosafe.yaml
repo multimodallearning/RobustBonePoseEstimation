@@ -1,0 +1,19 @@
+segmentation_model_clearml_task_id_folds:
+  - 69e8e72af9044402bd726d8bff017e00
+  - 0f92ef47c4cb4091b237e2e23b854d09
+  - 678e718bc6d54cd98801f71f1f803d64
+  - 2026bca8fe1b44eab37ce6b38a8b7a8c
+  - eda2c6f1326146beb143d98c92294c3e
+connected_component_analyse:
+  min_abs_area: 1
+  min_rel_to_biggest_area: 0.27
+opening_radius: 3
+cv_pipeline_radius: 3
+ransac_k: 1.5
+ransac_k_skeletonize: 1.5
+heatmap_model_clearml_task_id_folds:
+  - 31f1bbe7169b4461844fba1160b25b06
+  - 3d493f5d0dc44e3fa3da1b9db5ce8d15
+  - 549f8e369be94068946a2f802ee0529a
+  - 44d69507430f40fcb833e31f927d2d21
+  - ba09a021ddc9456face1c457a035ba67
