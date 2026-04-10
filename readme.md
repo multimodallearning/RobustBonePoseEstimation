@@ -17,10 +17,10 @@ obtain the 8-bit images.
 After that place it into `dataset/data/img8bit`.
 The physicians in our team (one radiologist and three paediatric surgeons) extend a subset of 231 radiographs with
 oriented bounding boxes for the fracture fragments of ulna and radius, resulting in a maximum of four boxes per
-radiograph.
+radiograph using CVAT. Annotations can be found under `dataset/data/cvat_annottations` and processed with our parser. 
 By averaging the top and bottom corners, we obtain two points representing the axis of a fragment.
 Those points were then used to generate the ground truth by drawing a one-pixel line between them (point candidates) or
-use them directly for the landmark detection.
+use them directly for the landmark detection. 
 Subsequently, the fragment axes are used to compute the corresponding angles for fractures of radius and ulna,
 respectively.
 
